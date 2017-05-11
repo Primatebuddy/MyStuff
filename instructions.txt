@@ -1,14 +1,23 @@
-create a new repository on the command line
+CREATE A NEW REPOSITORY ON THE COMMAND LINE {
+  echo "# MyStuff" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git remote add origin https://github.com/Primatebuddy/MyStuff.git
+  git push -u origin master
+}
 
-echo "# MyStuff" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/Primatebuddy/MyStuff.git
-git push -u origin master
+COMMIT {
+  git commit -m "Commit message"
+  git push -u origin master
+}
 
+ADD {
+  to add everything:
+  git add -A
 
-COMMIT
-git commit -m "Commit message"
-git push -u origin master
+  to add a single thing:
+  git add "<single thing>"
 
+  do a commit process from above.
+)
