@@ -3,3 +3,11 @@ FUNNY PATHS IN GITHUB {
   in the path are empty, so github combines them. If you hover over it
   you will see a tooltip that reads "this path skips through empty directories"
 }
+
+SSH KEYS IN GITHUB {
+  # create key: ssh-keygen -t rsa -C "your_email@example.com"
+  # add it to github (profile->settings->SSH and GPG keys)
+  # test key: ssh -vT git@github.com
+  # set repo to use ssh:
+  git remote set-url origin git@github.com:Primatebuddy/MyStuff.git
+}
