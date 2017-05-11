@@ -1,0 +1,5 @@
+FUNNY PATHS IN GITHUB {
+  #The reason some paths in github are combined is that the directories
+  in the path are empty, so github combines them. If you hover over it
+  you will see a tooltip that reads "this path skips through empty directories"
+}
