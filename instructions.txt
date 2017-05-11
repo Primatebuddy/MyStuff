@@ -1,4 +1,4 @@
-CREATE A NEW REPOSITORY ON THE COMMAND LINE {
+PROCESS: CREATE A NEW REPOSITORY ON THE COMMAND LINE {
   echo "# MyStuff" >> README.md
   git init
   git add README.md
@@ -7,24 +7,27 @@ CREATE A NEW REPOSITORY ON THE COMMAND LINE {
   git push -u origin master
 }
 
-COMMIT {
+PROCESS: COMMIT {
   git commit -m "Commit message"
   git push -u origin master
 }
 
-ADD {
-  to add everything:
+PROCESS: ADD {
+  //to add everything
   git add -A
 
-  to add a single thing:
+  //to add a single thing
   git add "<single thing>"
 
-  do a commit process from above.
+  //do a commit process from above.
 )
 
-WORKFLOW BASIC {
+WORKFLOW: BASIC {
+  /*
   - Checkout file(s) (optional since only me is doing this)
   - work on file(s)
-  - 
-
+  - add files to stage
+  - commit files locally
+  - push to github
+  */
 }
