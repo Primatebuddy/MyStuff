@@ -21,3 +21,10 @@ ADD {
 
   do a commit process from above.
 )
+
+WORKFLOW BASIC {
+  - Checkout file(s) (optional since only me is doing this)
+  - work on file(s)
+  - 
+
+}
