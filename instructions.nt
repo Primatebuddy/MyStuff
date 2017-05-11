@@ -1,9 +1,23 @@
-PROCESS: CREATE A NEW REPOSITORY ON THE COMMAND LINE {
+PROCESS: CREATE A NEW REPOSITORY ON THE COMMAND LINE (HTTP) {
   echo "# MyStuff" >> README.md
   git init
   git add README.md
   git commit -m "first commit"
   git remote add origin https://github.com/Primatebuddy/MyStuff.git
+  git push -u origin master
+}
+
+PROCESS: CREATE A NEW REPOSITORY ON THE COMMAND LINE (SSH) {
+  //create a new repository on the command line
+  echo "# Other-Stuff" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git remote add origin git@github.com:Primatebuddy/Other-Stuff.git
+  git push -u origin master
+  …or push an existing repository from the command line
+  
+  git remote add origin git@github.com:Primatebuddy/Other-Stuff.git
   git push -u origin master
 }
 
