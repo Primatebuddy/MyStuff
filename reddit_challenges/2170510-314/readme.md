@@ -1,4 +1,4 @@
-Description
+***Description***
 
 We've explored the concept of string rotations before as garland words. Mathematically we can define them as a string s = uv is said to be a rotation of t if t = vu. For example, the string 0011001 is a rotation of 0100110, where u = 00110 and v = 01.
 Today we're interested in lexicographically minimal string rotation or lexicographically least circular substring, the problem of finding the rotation of a string possessing the lowest lexicographical order of all such rotations. Finding the lexicographically minimal rotation is useful as a way of normalizing strings.
