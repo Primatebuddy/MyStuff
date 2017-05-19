@@ -25,4 +25,4 @@ def lcs(S):
 ```
 
 ## PARTS OF THE PSEUDOCODE
-```def lcs(S)
+`def lcs(S)`
