@@ -9,7 +9,7 @@ def lcs(S):
     # Concatenate string to it self to avoid modular arithmetic
     S += S
 
-    # Failure function. This means it is setting the variable *f* to an array of length *len(s)* where each item in the array has value -1. Weird syntax, but logical.   
+    # Failure function. This means it is setting the variable *f* to an array of length *len(s)* where each item # in the array has value -1. Weird syntax, but logical.   
     f = [-1] * len(S)     
     k = 0       # Least rotation of string found so far
     for j in xrange(1,len(S)):
