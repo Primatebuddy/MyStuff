@@ -37,3 +37,6 @@ So this is sort of problematic for me. I assume this means it is setting the var
 
 Nothing special, set *k* = 0
 `k = 0`
+
+Ok so, similar to a C for block, e.g. for(j=1; j<len(S); j++){}
+`for j in xrange(1,len(S)):`
