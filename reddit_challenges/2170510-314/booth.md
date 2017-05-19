@@ -27,16 +27,21 @@ def lcs(S):
 ## PARTS OF THE PSEUDOCODE
 
 First we define the function to find LCS, and we call it "lcs".
+
 `def lcs(S):`
 
 Concatenate the string with itself to avoid modular arithmetic. As an exercise, create a version that uses modular arithmetic as well.
+
 `S += S`
 
 So this is sort of problematic for me. I assume this means it is setting the variable *f* to an array of length *len(s)* where each item in the array has value -1, but that is weird syntax.
+
 `f = [-1] * len(S)`
 
 Nothing special, set *k* = 0
+
 `k = 0`
 
 Ok so, similar to a C for block, e.g. for(j=1; j<len(S); j++){}
+
 `for j in xrange(1,len(S)):`
