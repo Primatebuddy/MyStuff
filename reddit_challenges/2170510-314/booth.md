@@ -2,11 +2,15 @@
 
 [Here](https://en.wikipedia.org/wiki/Lexicographically_minimal_string_rotation#Booth.27s_Algorithm) is a link to the Wikipedia page.
 
-Here is the pseudocode:
+Here is the Python code:
 ```
 def lcs(S):
-    S += S      # Concatenate string to it self to avoid modular arithmetic
-    f = [-1] * len(S)     # Failure function
+
+    # Concatenate string to it self to avoid modular arithmetic
+    S += S
+
+    # Failure function. This means it is setting the variable *f* to an array of length *len(s)* where each item # in the array has value -1. Weird syntax, but logical.   
+    f = [-1] * len(S)     
     k = 0       # Least rotation of string found so far
     for j in xrange(1,len(S)):
         sj = S[j]
@@ -24,7 +28,7 @@ def lcs(S):
     return k
 ```
 
-## PARTS OF THE PSEUDOCODE
+## PARTS OF THE PYTHON CODE
 
 First we define the function to find LCS, and we call it "lcs".
 
@@ -34,7 +38,7 @@ Concatenate the string with itself to avoid modular arithmetic. As an exercise, 
 
 `S += S`
 
-So this is sort of problematic for me. I assume this means it is setting the variable *f* to an array of length *len(s)* where each item in the array has value -1, but that is weird syntax.
+This means it is setting the variable *f* to an array of length *len(s)* where each item in the array has value -1. Weird syntax, but logical.
 
 `f = [-1] * len(S)`
 
@@ -42,6 +46,6 @@ Nothing special, set *k* = 0
 
 `k = 0`
 
-Ok so, similar to a C for block, e.g. for(j=1; j<len(S); j++){}
+Ok so, similar to a C for block, e.g. `for(j=1; j<len(S); j++){}` except I don't see anywhere *j* is incremented.
 
 `for j in xrange(1,len(S)):`
