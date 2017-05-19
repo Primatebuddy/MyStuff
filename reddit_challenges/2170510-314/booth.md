@@ -1,7 +1,8 @@
 ## BREAKDOWN OF WIKIPEDIA'S BOOTH ALGORITHM
 
-[here](https://en.wikipedia.org/wiki/Lexicographically_minimal_string_rotation#Booth.27s_Algorithm) is a link to the Wikipedia page.
+[Here](https://en.wikipedia.org/wiki/Lexicographically_minimal_string_rotation#Booth.27s_Algorithm) is a link to the Wikipedia page.
 
+Here is the pseudocode:
 ```
 def lcs(S):
     S += S      # Concatenate string to it self to avoid modular arithmetic
@@ -22,3 +23,6 @@ def lcs(S):
             f[j-k] = i+1
     return k
 ```
+
+## PARTS OF THE PSEUDOCODE
+```def lcs(S)
