@@ -35,11 +35,6 @@ int main(int argc, char const *argv[]) {
     }
   }
 
-  //return k;
-
-
-
-
 
   printf("%d %s\n", k, s);
 
