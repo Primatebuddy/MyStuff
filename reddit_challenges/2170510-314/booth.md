@@ -1,4 +1,4 @@
-##BREAKDOWN OF WIKIPEDIA'S BOOTH ALGORITHM
+## BREAKDOWN OF WIKIPEDIA'S BOOTH ALGORITHM
 
 [here](https://en.wikipedia.org/wiki/Lexicographically_minimal_string_rotation#Booth.27s_Algorithm) is a link to the Wikipedia page.
 
