@@ -28,13 +28,16 @@ The most simplified numbers
 ### Notes/Hints
 
 Most languages have by default this kind of functionality, but if you want to challenge yourself, you should go back to the basic theory and implement it yourself.
-Bonus
+
+## Bonus
 
 Instead of using numbers, we could also use letters.
 For instance
+```
 ab   a
 __ = _
 cb   c
+```
 And if you know that x = cb, then you would have this:
 ab   a
 __ = _
