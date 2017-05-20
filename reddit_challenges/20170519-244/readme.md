@@ -39,10 +39,15 @@ __ = _
 cb   c
 ```
 And if you know that x = cb, then you would have this:
+
+```
 ab   a
 __ = _
-x    c  
+x    c
+```  
 and offcourse:
+
+```
 a    1
 __ = _
 a    1
@@ -50,20 +55,24 @@ a    1
 aa   a
 __ = _
 a    1
+```
+
 The input will be first a number saying how many equations there are. And after the equations, you have the fractions.
 The equations are a letter and a value seperated by a space. An equation can have another equation in it.
-3
-x cb
-y ab
-z xa
-ab cb
-ab x
-x y
-z y
-z xay
+
++ 3
++ x cb
++ y ab
++ z xa
++ ab cb
++ ab x
++ x y
++ z y
++ z xay
+
 output:
-a c
-a c
-c a
-c 1
-1 ab
++ a c
++ a c
++ c a
++ c 1
++ 1 ab
