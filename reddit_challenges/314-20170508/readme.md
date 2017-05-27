@@ -18,7 +18,8 @@ You should emit the smallest and largest integer you can make, per line. Example
 79 82 34 83 69
 420 34 19 71 341
 17 32 91 7 46
-Challenge Output
+
+## Challenge Output
 
 3469798283 8382796934
 193413442071 714203434119
