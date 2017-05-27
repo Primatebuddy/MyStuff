@@ -14,16 +14,12 @@ int main(int argc, char **argv) {
 }
 
 int gcd(int a, int b) {
-  int i;
-
-  //check to see which of the params are smaller, and set i to that
-  if((a-b) < 0)
-    i=a;
-  else
-    i=b;
+  //check to see which of the params are smaller
+  if((b-a) < 0)
+    return gcd(b, a);
 
   //the meat of gcd, modular arithmetic!
-  for(i=a; i>1; i--) {
+  for(int i=a; i>1; i--) {
     if(a%i == 0 && b%i == 0)
       return i;
   }
