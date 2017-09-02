@@ -1,0 +1,42 @@
+RubyGems Environment:
+  - RUBYGEMS VERSION: 2.5.2
+  - RUBY VERSION: 2.3.3 (2016-11-21 patchlevel 222) [x86_64-linux-gnu]
+  - INSTALLATION DIRECTORY: /var/lib/gems/2.3.0
+  - USER INSTALLATION DIRECTORY: /home/brian/.gem/ruby/2.3.0
+  - RUBY EXECUTABLE: /usr/bin/ruby2.3
+  - EXECUTABLE DIRECTORY: /usr/local/bin
+  - SPEC CACHE DIRECTORY: /home/brian/.gem/specs
+  - SYSTEM CONFIGURATION DIRECTORY: /etc
+  - RUBYGEMS PLATFORMS:
+    - ruby
+    - x86_64-linux
+  - GEM PATHS:
+     - /var/lib/gems/2.3.0
+     - /home/brian/.gem/ruby/2.3.0
+     - /usr/lib/x86_64-linux-gnu/rubygems-integration/2.3.0
+     - /usr/share/rubygems-integration/2.3.0
+     - /usr/share/rubygems-integration/all
+  - GEM CONFIGURATION:
+     - :update_sources => true
+     - :verbose => true
+     - :backtrace => false
+     - :bulk_threshold => 1000
+  - REMOTE SOURCES:
+     - https://rubygems.org/
+  - SHELL PATH:
+     - /home/brian/anaconda3/bin
+     - /home/brian/usr/bin
+     - /home/brian/anaconda3/bin
+     - /home/brian/usr/bin
+     - /usr/local/sbin
+     - /usr/local/bin
+     - /usr/sbin
+     - /usr/bin
+     - /sbin
+     - /bin
+     - /usr/games
+     - /usr/local/games
+     - /snap/bin
+     - /usr/local/java/jdk1.8.0_40/bin
+     - /usr/local/java/jdk1.8.0_40/jre/bin
+     - /home/brian/msp430_gcc

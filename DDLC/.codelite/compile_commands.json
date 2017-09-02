@@ -1,0 +1,41 @@
+[{
+  "directory": "/home/brian/projects/DDLC",
+  "command": "/usr/bin/g++ -g -O0 -Wall -I. -I. -I/usr/include -I/usr/include/SDL2 -MG -MP -MT./Debug/game.cpp.o -MF./Debug/game.cpp.o.d -MM game.cpp",
+  "file": "/home/brian/projects/DDLC/game.cpp"
+ }, {
+  "directory": "/home/brian/projects/DDLC",
+  "command": "/usr/bin/g++ -g -O0 -Wall -I. -I. -I/usr/include -I/usr/include/SDL2 -MG -MP -MT./Debug/main.cpp.o -MF./Debug/main.cpp.o.d -MM main.cpp",
+  "file": "/home/brian/projects/DDLC/main.cpp"
+ }, {
+  "directory": "/home/brian/projects/DDLC",
+  "command": "/usr/bin/g++ -g -O0 -Wall -I. -I. -I/usr/include -I/usr/include/SDL2 -MG -MP -MT./Debug/input.cpp.o -MF./Debug/input.cpp.o.d -MM input.cpp",
+  "file": "/home/brian/projects/DDLC/input.cpp"
+ }, {
+  "directory": "/home/brian/projects/DDLC",
+  "command": "/usr/bin/g++ -g -O0 -Wall -I. -I. -I/usr/include -I/usr/include/SDL2 -MG -MP -MT./Debug/sprite.cpp.o -MF./Debug/sprite.cpp.o.d -MM sprite.cpp",
+  "file": "/home/brian/projects/DDLC/sprite.cpp"
+ }, {
+  "directory": "/home/brian/projects/DDLC",
+  "command": "/usr/bin/g++ -g -O0 -Wall -I. -I. -I/usr/include -I/usr/include/SDL2 -MG -MP -MT./Debug/graphics.cpp.o -MF./Debug/graphics.cpp.o.d -MM graphics.cpp",
+  "file": "/home/brian/projects/DDLC/graphics.cpp"
+ }, {
+  "directory": "/home/brian/projects/DDLC",
+  "command": "/usr/bin/g++ -c /home/brian/projects/DDLC/game.cpp -g -O0 -Wall -o ./Debug/game.cpp.o -I. -I. -I/usr/include -I/usr/include/SDL2",
+  "file": "/home/brian/projects/DDLC/game.cpp"
+ }, {
+  "directory": "/home/brian/projects/DDLC",
+  "command": "/usr/bin/g++ -c /home/brian/projects/DDLC/sprite.cpp -g -O0 -Wall -o ./Debug/sprite.cpp.o -I. -I. -I/usr/include -I/usr/include/SDL2",
+  "file": "/home/brian/projects/DDLC/sprite.cpp"
+ }, {
+  "directory": "/home/brian/projects/DDLC",
+  "command": "/usr/bin/g++ -c /home/brian/projects/DDLC/main.cpp -g -O0 -Wall -o ./Debug/main.cpp.o -I. -I. -I/usr/include -I/usr/include/SDL2",
+  "file": "/home/brian/projects/DDLC/main.cpp"
+ }, {
+  "directory": "/home/brian/projects/DDLC",
+  "command": "/usr/bin/g++ -c /home/brian/projects/DDLC/input.cpp -g -O0 -Wall -o ./Debug/input.cpp.o -I. -I. -I/usr/include -I/usr/include/SDL2",
+  "file": "/home/brian/projects/DDLC/input.cpp"
+ }, {
+  "directory": "/home/brian/projects/DDLC",
+  "command": "/usr/bin/g++ -c /home/brian/projects/DDLC/graphics.cpp -g -O0 -Wall -o ./Debug/graphics.cpp.o -I. -I. -I/usr/include -I/usr/include/SDL2",
+  "file": "/home/brian/projects/DDLC/graphics.cpp"
+ }]

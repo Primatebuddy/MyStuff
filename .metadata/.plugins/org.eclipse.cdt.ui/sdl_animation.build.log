@@ -1,0 +1,6 @@
+21:12:21 **** Incremental Build of configuration Default for project sdl_animation ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+
+21:12:21 Build Finished (took 66ms)
+

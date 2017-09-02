@@ -1,0 +1,16 @@
+----------Building project:[ DDLC - Debug ]----------
+make[1]: Entering directory '/home/brian/projects/DDLC'
+/usr/bin/g++  -c  "/home/brian/projects/DDLC/game.cpp" -g -O0 -Wall  -o ./Debug/game.cpp.o -I. -I. -I/usr/include -I/usr/include/SDL2 
+/usr/bin/g++  -c  "/home/brian/projects/DDLC/main.cpp" -g -O0 -Wall  -o ./Debug/main.cpp.o -I. -I. -I/usr/include -I/usr/include/SDL2 
+/usr/bin/g++  -c  "/home/brian/projects/DDLC/sprite.cpp" -g -O0 -Wall  -o ./Debug/sprite.cpp.o -I. -I. -I/usr/include -I/usr/include/SDL2 
+/home/brian/projects/DDLC/sprite.cpp: In member function ‘void Sprite::draw(Graphics&, int, int)’:
+/home/brian/projects/DDLC/sprite.cpp:27:62: warning: narrowing conversion of ‘((float)((Sprite*)this)->Sprite::_sourceRect.SDL_Rect::w * ((float)globals::SPRITE_SCALE))’ from ‘float’ to ‘int’ inside { } [-Wnarrowing]
+  SDL_Rect destinationRectangle = { x, y, this->_sourceRect.w * globals::SPRITE_SCALE,
+                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+/home/brian/projects/DDLC/sprite.cpp:28:24: warning: narrowing conversion of ‘((float)((Sprite*)this)->Sprite::_sourceRect.SDL_Rect::h * ((float)globals::SPRITE_SCALE))’ from ‘float’ to ‘int’ inside { } [-Wnarrowing]
+    this->_sourceRect.h * globals::SPRITE_SCALE };
+    ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+/usr/bin/g++  -c  "/home/brian/projects/DDLC/input.cpp" -g -O0 -Wall  -o ./Debug/input.cpp.o -I. -I. -I/usr/include -I/usr/include/SDL2 
+/usr/bin/g++  -c  "/home/brian/projects/DDLC/graphics.cpp" -g -O0 -Wall  -o ./Debug/graphics.cpp.o -I. -I. -I/usr/include -I/usr/include/SDL2 
+/usr/bin/g++ -o ./Debug/DDLC @"DDLC.txt" -L. -L/usr/lib/x86_64-linux-gnu  -lSDL2 -lSDL2_image  
+make[1]: Leaving directory '/home/brian/projects/DDLC'

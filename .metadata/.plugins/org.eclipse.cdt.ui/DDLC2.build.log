@@ -1,0 +1,6 @@
+00:16:34 **** Incremental Build of configuration Default for project DDLC2 ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+
+00:16:34 Build Finished (took 75ms)
+

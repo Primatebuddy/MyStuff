@@ -15,7 +15,7 @@ echo "Hello PHP";
 
 <?php
 /*this is a comment that spans
-multiplle lines, like in C. I love C so much!
+multiple lines, like in C. I love C so much!
 */
 
 

@@ -1,0 +1,1 @@
+./Debug/game.cpp.o ./Debug/main.cpp.o ./Debug/sprite.cpp.o ./Debug/input.cpp.o ./Debug/graphics.cpp.o
